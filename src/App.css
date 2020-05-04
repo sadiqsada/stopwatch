@@ -1,0 +1,43 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #001f3f;
+}
+
+h1 {
+  font-size: 5em;
+  color: white;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  margin: 4px;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#start {
+  background-color:#2ECC40;
+}
+
+#reset {
+  background-color: #FF851B;
+}
